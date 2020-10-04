@@ -25,7 +25,7 @@
                 <li><a href="#">Mis pedidos</a></li>
                 <li><a href="<?=base_url?>usuario/logout">Cerrar Sesión</a></li>
             <?php else: ?>
-                <li><a href="<?=base_url?>usuario/registro">Registrate aqui culo</a></li>
+                <li><a href="<?=base_url?>usuario/registro">Registrate aqui</a></li>
             <?php endif; ?>
         </ul>
     </div>
