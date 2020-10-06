@@ -1,8 +1,8 @@
 <h1>Crear nuevos productos</h1>
 
 <div class="container">
-    <form action="<?=base_url?>producto/save" method="POST">
-        <div class="form-row">
+    <form action="<?=base_url?>producto/save" method="POST" enctype="multipart/form-data"> <!--enctype="multipart/form-data" recibir archivos -->
+        <div class="form-row">                                                              <!--                              en un formulario -->
             <div class="form-group col-md-6">
                 <label for="nombre">Nombre</label>
                 <input type="text" class="form-control" name="nombre">
