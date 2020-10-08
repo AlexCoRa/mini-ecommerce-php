@@ -11,7 +11,7 @@
         <div class="data">
             <p><?=$product->descripcion?></p>
             <p><strong>$<?=$product->precio?></strong></p>
-            <a href="#" class="btn btn-outline-dark w-50 d-block"><i class="fas fa-shopping-cart"></i>  Agregar al Carrito</a>
+            <a href="<?=base_url?>carrito/add&id=<?=$product->id?>" class="btn btn-outline-dark w-50 d-block"><i class="fas fa-shopping-cart"></i>  Agregar al Carrito</a>
         </div>
     </div>
 <?php else: ?>

@@ -12,6 +12,7 @@ require_once 'views/layout/sidebar.php';
 function show_error() {
     $error = new errorController();
     $error->index();
+
 }
 
 if(isset($_GET['controller'])) {
